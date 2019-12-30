@@ -3,7 +3,8 @@ General Poly Clipper Algorithm in Java
 
 ## Note
 
-GPCJ was original[1] written by Daniel Bridenbecker
+GPCJ was [original][1] written by Daniel Bridenbecker
+and extended by [David Legland][6]
 
 The purpose of this repository is to bring back the source and create a buildable, tested version.
 So this can be used again.
@@ -11,6 +12,11 @@ So this can be used again.
 ## Build
 1. Checkout
 2. `mvn clean install`
+
+
+## Alternative
+* The original code has been adapted by [OpenIMAJ][2] see [here][3].
+* An alternative clipping algorithm has been [implemented][4] based on [Martinez][5]. 
 
 
 ## Original page
@@ -62,3 +68,8 @@ SEI would appreciate being notified if you are using this code. Also, if you wou
 
 
 [1]: http://web.archive.org/web/20090213122910/http://www.seisw.com/GPCJ/GPCJ.html
+[2]: https://github.com/openimaj/openimaj
+[3]: https://github.com/openimaj/openimaj/blob/master/core/core-math/src/main/java/org/openimaj/math/geometry/shape/util/PolygonUtils.java
+[4]: https://github.com/random-dwi/polygonclipping
+[5]: http://www.cs.ucr.edu/~vbz/cs230papers/martinez_boolean.pdf
+[6]: https://github.com/dlegland
