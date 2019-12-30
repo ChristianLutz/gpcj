@@ -71,7 +71,7 @@ public class PolyDemo
    
    private static final String TITLE = PRODUCT_NAME ;
    
-   private static final String ICON_STR_PD = "icons/pd_icon.gif" ;
+   private static final String ICON_STR_PD = "/icons/pd_icon.gif" ;
    
    private static final String SELECT_POINTS = "Click on white panel to enter points.  Select on Done Entering or Poly X when done." ;
    private static final String SELECT_OPERATION = "Select a set operation." ;
@@ -231,18 +231,6 @@ public class PolyDemo
     */
    public static void main( String[] argv )
    {
-//      try
-//      {
-//         com.l2fprod.gui.plaf.skin.Skin skin = com.l2fprod.gui.plaf.skin.SkinLookAndFeel.loadDefaultThemePack();
-//         com.l2fprod.gui.plaf.skin.SkinLookAndFeel.setSkin(skin);
-//         javax.swing.UIManager.setLookAndFeel("com.l2fprod.gui.plaf.skin.SkinLookAndFeel");
-//      }
-//      catch( Exception e )
-//      {
-//         System.out.println("Error occured setting look and feel, msg="+e.getMessage());
-//         System.exit(0);
-//      }
-
       PolyDemo pd = new PolyDemo();
       pd.show();
    }

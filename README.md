@@ -1,7 +1,7 @@
 # gpcj
 General Poly Clipper Algorithm in Java
 
-## Note
+### Note
 
 GPCJ was [original][1] written by Daniel Bridenbecker
 and extended by [David Legland][6]
@@ -12,6 +12,8 @@ So this can be used again.
 ## Build
 1. Checkout
 2. `mvn clean install`
+3. Run demo with `java -jar gpcj-demo/target/gpcj-demo-2.3.0-SNAPSHOT.jar`
+
 
 
 ## Alternative

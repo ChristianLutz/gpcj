@@ -112,7 +112,7 @@ public final class AboutDialog
       about_stack.add(Box.createVerticalStrut(5));
 
       Box icon_box = Box.createHorizontalBox();
-      java.net.URL sei_url = AboutDialog.class.getResource("icons/sei_logo.gif");
+      java.net.URL sei_url = AboutDialog.class.getResource("/icons/sei_logo.gif");
 
       ImageIcon sei_icon = new ImageIcon(sei_url);
 
@@ -186,17 +186,6 @@ public final class AboutDialog
     */
    public static void main( String[] args )
    {
-//      try
-//      {
-//         com.l2fprod.gui.plaf.skin.Skin skin = com.l2fprod.gui.plaf.skin.SkinLookAndFeel.loadDefaultThemePack();
-//         com.l2fprod.gui.plaf.skin.SkinLookAndFeel.setSkin(skin);
-//         javax.swing.UIManager.setLookAndFeel("com.l2fprod.gui.plaf.skin.SkinLookAndFeel");
-//      }
-//      catch( Exception e )
-//      {
-//         System.out.println("Error occured setting look and feel, msg="+e.getMessage());
-//         System.exit(0);
-//      }
       AboutDialog dialog = new AboutDialog(null);
       dialog.show();
       System.exit(0);

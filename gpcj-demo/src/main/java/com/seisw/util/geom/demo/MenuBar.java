@@ -73,7 +73,7 @@ public class MenuBar extends JMenuBar
    private static final String LBL_ABOUT   = "About PolyDemo...";
    
    //private static final String ICON_STR_HELP  = "icons/Help16.gif" ;
-   private static final String ICON_STR_ABOUT = "icons/About16.gif" ;
+   private static final String ICON_STR_ABOUT = "/icons/About16.gif" ;
    
    // ------------------------
    // --- Member Variables ---
